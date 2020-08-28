@@ -1,0 +1,10 @@
+###
+# there will be a 500 instead of `5`
+GET http://127.0.0.1:9999/create/5
+
+###
+# there will be a 500 with a internal exception instead of
+# a RuntimeException thrown by my code and all delete operations should be rollback
+GET http://127.0.0.1:9999/delete/5
+
+

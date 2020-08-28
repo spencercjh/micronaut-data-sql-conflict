@@ -1,0 +1,12 @@
+micronaut:
+  application:
+    name: demo
+  server:
+    port: 9999
+datasources:
+  default:
+    url: jdbc:mysql://localhost:3306/test
+    driverClassName: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+    dialect: MYSQL
